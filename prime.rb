@@ -1,12 +1,4 @@
-# # Add  code here!
-# def setup(num)
-#   prime = (0..num).to_a
-#   prime[0] = prime[1] = nil
-  
-#   prime.each do |n| 
-#     n*n 
-# end
-
+# Add  code here!
 
 def prime?(num)
   return false if !num.integer?
