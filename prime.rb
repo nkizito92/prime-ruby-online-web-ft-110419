@@ -14,7 +14,7 @@ def prime?(n)
     return false
   if num == n*n or n < 0
     return false 
-  elsif num == 2
+  elsif !num == n*n 
     return true 
   end 
   num+=1
