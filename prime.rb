@@ -9,6 +9,7 @@ def prime?(num)
   return true if num == 2 
   # returns false if the number dividual is equal to 0
   (2..num-1).each {|int| return false if num % int == 0}
+ 
   #return true if the num is a prime number
   true 
 end
