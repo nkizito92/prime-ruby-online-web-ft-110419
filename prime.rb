@@ -6,20 +6,7 @@
 #   prime.each do |n| 
 #     n*n 
 # end
-def prime?(n)
-  num = 0
-  prime = (0..n).to_a
-  prime[0] = prime[1] = nil
-  while  num < prime.length 
-    return false
-  if num == n*n or n < 0
-    return false 
-  elsif !num == n*n 
-    return true 
-  end 
-  num+=1
-end 
-end 
+
 
 def prime?(num)
   return false if !num.integer?
